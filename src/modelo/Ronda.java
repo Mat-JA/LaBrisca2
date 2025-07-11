@@ -22,7 +22,7 @@ public class Ronda implements Serializable {
     private int posGanadorBaza;
 
 
-    protected Ronda (ArrayList<Jugador> jugadores, int posMano) {
+    public Ronda (ArrayList<Jugador> jugadores, int posMano) {
 
         this.jugadores = jugadores;
         for (int i = 0; i < jugadores.size(); i++) {

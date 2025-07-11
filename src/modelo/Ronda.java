@@ -247,7 +247,7 @@ public class Ronda implements Serializable {
     //Vacia Baza, dandole los puntos y cartas al jugador ganador de baza
     //El jugador ganador de baza es marcado como ganador de baza
     //El estado de los demas en ese respecto se limpia
-    public void contabilizarBaza () {
+    private void contabilizarBaza () {
 
         for (Jugador jugador: jugadores) {
 

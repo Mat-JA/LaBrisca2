@@ -87,11 +87,6 @@ public class Mazo implements Serializable {
         return carta;
     }
 
-    public int tamanio () {
-
-        return cartas.size();
-    }
-
     public boolean esVacio () {
 
         return cartas.isEmpty();

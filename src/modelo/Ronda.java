@@ -78,14 +78,6 @@ public class Ronda implements Serializable {
 
     }
 
-    //La siguiente función comentada es un intento de resolver por
-    //Lógica la posición del jugador que bajo la carta ganadora
-    //Sabiendo la posición en baza de la carta ganadora
-
-
-
-
-
     //Establece que jugador va primero en una baza no inicial
     //Básicamente, el que se llevó la baza anterior
     private void definirTurnoInicial () {
@@ -169,11 +161,6 @@ public class Ronda implements Serializable {
     public int getPosMano () {
 
         return posMano;
-    }
-
-    public int getTurnoPos () {
-
-        return turnoPos;
     }
 
     public void actualizarJBC (String nomCarta, int posJ) {
